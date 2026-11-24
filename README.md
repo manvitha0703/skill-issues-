@@ -1,5 +1,6 @@
 # Same Web, Different Eyes 👁️✨
-> **"The internet adapts to you. Not the other way around."**
+> **"The internet adapts to you. Not the other way around."**  
+> **MSRIT Hackathon Submission** — Team `skill-issues-`
 
 An AI-powered universal accessibility browser extension for Chrome and Chromium-based browsers (Manifest V3) that functions as an intelligent, personalized accessibility layer between the user and any website on the internet.
 
