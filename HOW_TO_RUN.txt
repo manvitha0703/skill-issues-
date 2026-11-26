@@ -1,0 +1,64 @@
+================================================================================
+SAME WEB, DIFFERENT EYES - CHROME EXTENSION (v2.0)
+Universal AI-Powered Accessibility Layer for Chrome & Chromium Browsers
+================================================================================
+
+HOW TO RUN IN 3 EASY STEPS (NO CODING REQUIRED):
+-------------------------------------------------
+
+1. Open Google Chrome (or Microsoft Edge, Brave, Opera, Arc).
+
+2. Navigate to:
+   chrome://extensions
+
+3. In the top-right corner, turn ON the "Developer mode" toggle switch.
+
+4. In the top-left corner, click the "Load unpacked" button.
+
+5. Select the "dist" folder located inside this project folder:
+   [folder_where_you_unzipped]/dist
+
+That's it! "Same Web, Different Eyes" is now installed and ready to use!
+Pin the extension icon to your browser toolbar for quick 1-click access.
+
+
+HOW TO TEST INTERACTIVELY RIGHT NOW:
+------------------------------------
+You can test every feature immediately using the included offline demo portal:
+Open the file:
+   dist/demo.html
+in your browser (just double-click it or drag it into Chrome).
+
+On this page, you can test:
+- 8 Scientific Color Blindness Profiles with live intensity slider & spectrum bar.
+- Dyslexia Tools: single-line focus curtains, movable reading ruler, warm tint.
+- Synchronized Visual Reading Engine: sentence-level highlight + reading cursor badge.
+- 1-Click Emergency Stop & Flash Suppressor.
+- Offline In-Page Translation into 7 Indian Regional Languages (Hindi, Kannada, Tamil, etc.).
+- Canvas 2D Image OCR and contextual alt-text generation.
+- Smart Form Autofill with review modal.
+
+
+KEYBOARD SHORTCUTS:
+-------------------
+- Alt + A      : Toggle Floating Accessibility Control Centre
+- Alt + S      : Start / Stop Visual Reading Narrator
+- Alt + Space  : Pause / Resume speech narration
+- Alt + H      : Jump to next Heading
+- Alt + L      : Jump to next Link
+- Alt + B      : Jump to next Button
+- Alt + F      : Jump to next Form Field
+- Alt + D      : Hover / simplify active sentence
+
+
+FOR DEVELOPERS / CODE REVIEWERS:
+--------------------------------
+If you want to view, modify, or rebuild the code:
+- Node.js version 18+ is recommended.
+- Run tests:
+    npm test
+- Rebuild extension:
+    npm run build
+- All source files are located in: src/
+- Automated test suites are in: src/**/__tests__/
+================================================================================
